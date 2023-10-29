@@ -1,0 +1,12 @@
+*lock*
+*.cache
+*.log
+*phpactor*
+.DS_Store
+.idea
+.vscode
+build
+coverage
+docs
+node_modules
+vendor
