@@ -15,6 +15,25 @@ To trigger GitHub Workflow formatter job, use `!format` in a commit message.
 Viist [spatie-package-tools](https://github.com/spatie/filament-package-tools)
 to learn more about how Package Service Provider work.
 
+## Development
+
+To work with assets, first build the assets, then you have to publish the assets
+in any project that uses the plugin.
+
+Publishing Filament assets:
+
+```bash
+php artisan filament:assets
+```
+
+### Access Plugin Class
+
+You may access plugin class using the `filament` static function:
+
+```php
+\AuthorTemplate\FilamentPackageTemplate\FilamentPackageTemplatePlugin::filament->hasBadges()
+```
+
 ## Installation
 
 You can install the package via composer:
