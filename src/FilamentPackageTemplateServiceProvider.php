@@ -63,6 +63,6 @@ class FilamentPackageTemplateServiceProvider extends PackageServiceProvider
             // AlpineComponent::make('filament-package-template', __DIR__ . '/../resources/dist/components/filament-package-template.js'),
             Css::make('filament-package-template', __DIR__ . '/../resources/dist/filament-package-template.css'),
             Js::make('filament-package-template', __DIR__ . '/../resources/dist/filament-package-template.js'),
-        ], package: 'author-template/filament-package-template')
+        ], package: 'author-template/filament-package-template');
     }
 }
