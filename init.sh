@@ -1,13 +1,13 @@
-#!/bin/bash
+#!/usr/bin/sh
 
 if [ "$1" = "" ]; then
-  echo "Author name in kebab case is required. i.e, AlanD20"
-  exit 0
+    echo "Author name in kebab case is required. i.e, AlanD20"
+    exit 0
 fi
 
 if [ "$2" = "" ]; then
-  echo "Project name in kebab case is required. i.e, example-project"
-  exit 0
+    echo "Project name in kebab case is required. i.e, example-project"
+    exit 0
 fi
 
 author_kebab_case=$1

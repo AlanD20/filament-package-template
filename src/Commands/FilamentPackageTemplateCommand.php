@@ -2,6 +2,8 @@
 
 namespace AuthorTemplate\FilamentPackageTemplate\Commands;
 
+use Illuminate\Console\Command;
+
 class FilamentPackageTemplateCommand extends Command
 {
     public $signature = 'init';

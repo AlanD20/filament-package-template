@@ -9,7 +9,7 @@ This should be you package description and what it does.
 
 ## Getting Started
 
-Clone this boilerplate repository then run `./init.sh` shell script.
+Clone this boilerplate repository then run the `./init.sh` bash script.
 
 ```bash
 cd filament-package-template && ./init.sh <vendor-name> <package-name>
@@ -17,7 +17,7 @@ cd filament-package-template && ./init.sh <vendor-name> <package-name>
 
 To trigger GitHub Workflow formatter job, use `!format` in a commit message.
 
-Viist [spatie-package-tools](https://github.com/spatie/filament-package-tools)
+Visit [spatie-package-tools](https://github.com/spatie/filament-package-tools)
 to learn more about how Package Service Provider work.
 
 ## Development
